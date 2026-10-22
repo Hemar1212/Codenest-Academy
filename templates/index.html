@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeNest Academy | Training for Freshers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrap">
+            <a class="brand" href="/">CodeNest Academy 🚀</a>
+            <nav class="site-nav" aria-label="Main">
+                <a href="/register">Register</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <div class="hero">
+            <p class="subtitle">Training | Projects | Freshers Guide</p>
+            <h1>Learn to code by building real projects.</h1>
+            <p>Empowering young developers to level up their skills through training in software development technologies 🧑‍💻</p>
+            <a class="button" href="/register">Register for a course</a>
+        </div>
+
+        <div class="video">
+            <iframe src="https://www.youtube.com/watch?v=LzMnsfqjzkA" title="What is full stack development?" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <section>
+            <h2>What is full stack development?</h2>
+            <p>In this video, I explain what full stack development is and give a detailed overview of the technologies used to build full stack web applications. Full stack web development means building the front-end, back-end and database parts of a web application. A full stack developer handles everything from designing the user interface to managing the server-side logic and the database.</p>
+            <p>I begin with the key technologies and programming languages, including HTML, CSS, JavaScript, Node.js, and front-end frameworks such as React and Angular. Then I move on to server-side technologies like Python, Java and Node.js, and to databases like MySQL and MongoDB, and AWS.</p>
+        </section>
+
+        <section>
+            <h2>Full stack has 3 parts</h2>
+            <ul class="parts">
+                <li>Front-end</li>
+                <li>Back-end</li>
+                <li>Database</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Technologies used in full stack development</h2>
+            <div class="table-scroll">
+                <table class="tech">
+                    <thead>
+                        <tr><th>Frontend</th><th>Backend</th><th>Database</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>HTML</td><td>Java</td><td>MongoDB</td></tr>
+                        <tr><td>CSS</td><td>Python</td><td>MySQL</td></tr>
+                        <tr><td>JavaScript</td><td>Node.js</td><td>AWS</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section>
+            <a class="button" href="/register">Register for a course</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <a href="/register">Register for a course</a>
+        </div>
+    </footer>
+</body>
+</html>
